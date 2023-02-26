@@ -140,7 +140,7 @@ table {
 }
 @media (max-width: 360px) {
   #container{
-    margin-top:30%;
+    margin-top:5%;
   }
   h1{
     font-size: 45px;
@@ -154,4 +154,23 @@ table {
     width: 180px;
     font-size: 27px;
   }
+  .footer-basic .social {
+    padding-bottom:0px;    
+    margin-top: 20px;
+  }
+  .footer-basic{
+    position: absolute;
+  }
+  .footer-basic .social > a {
+    width:30px;
+    height:30px;
+    line-height:30px;
+    margin:0 2px;
+  }
+  .footer-basic .copyright {
+    margin-top: 3px;
+    font-size:10px;
+    margin-bottom: 8px;
+  }
+
 }
